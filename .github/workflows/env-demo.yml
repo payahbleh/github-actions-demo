@@ -7,4 +7,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print Greeting
-        run: echo "${{ env.GREETING }}"
+        run: echo "${{ env.GREETING }}, World!"
